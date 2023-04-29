@@ -4,7 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 
 import { faUserSecret, faCircleNotch } from '@fortawesome/free-solid-svg-icons'
 
-import './style.css'
+import './style.scss'
 import App from './App.vue'
 import router from './router'
 

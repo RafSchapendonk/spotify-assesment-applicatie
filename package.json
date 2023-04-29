@@ -23,6 +23,8 @@
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.1.0",
     "@vue/cli-plugin-router": "~5.0.0",
+    "postcss-nesting": "^11.2.2",
+    "sass": "^1.62.1",
     "vite": "^4.3.2"
   }
 }
