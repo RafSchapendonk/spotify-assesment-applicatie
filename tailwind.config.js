@@ -34,6 +34,15 @@ export default {
     "./src/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
+    colors: {
+      'white': '#FFFFFF',
+      'black': '#000000',
+      'dark-grey': '#121212',
+      'medium-grey': '#181818',
+      'grey': '#282828',
+      'light-grey': '#A7A7A7',
+      'green': '#1ED760',
+    },
     screens: {
       // '2xl': null, 
       // Null value causes error.

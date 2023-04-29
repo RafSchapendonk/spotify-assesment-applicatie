@@ -1,6 +1,5 @@
 <template>
   <div>
-    test
     <Spinner />
   </div>
 </template>

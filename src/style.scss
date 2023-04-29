@@ -4,9 +4,8 @@
 
 /* Loader */
 .loader {
-    @apply p-xl;
-
     &__circle {
-        @apply text-red-600 text-lg;
+        @apply text-red-600;
+        font-size: 80px;
     } 
 }
