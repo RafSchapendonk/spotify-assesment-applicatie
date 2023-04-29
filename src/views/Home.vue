@@ -1,12 +1,9 @@
 <template>
-  <div>
-    <router-view />
-  </div>
+  <div class="bg-red-500">Home test</div>
 </template>
 
 <script>
 export default {
-  name: "App",
+  name: "Home",
 };
 </script>
-
