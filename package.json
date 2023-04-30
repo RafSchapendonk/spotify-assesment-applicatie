@@ -30,6 +30,7 @@
     "@vue/cli-plugin-router": "~5.0.0",
     "postcss-nesting": "^11.2.2",
     "sass": "^1.62.1",
-    "vite": "^4.3.2"
+    "vite": "^4.3.2",
+    "vite-plugin-environment": "^1.1.3"
   }
 }

@@ -12,8 +12,12 @@ import { Buffer } from "buffer";
 
 import Spinner from "../components/Spinner.vue";
 
+// TO-DO env values are seen as undefined thats why the api returns with 400
 const client_id = process.env.CLIENT_ID;
 const client_secret = process.env.CLIENT_SECRET;
+
+console.log(client_id + " " + client_secret);
+
 const auth_token = Buffer.from(
   `${client_id}:${client_secret}`,
   "utf-8"
@@ -39,8 +43,7 @@ export default {
         url: 'https://accounts.spotify.com/api/token',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
-          // TO-DO Fix hardcoded auth token.
-          'Authorization': 'Basic MzI5ODk5NDU3OTJiNDNjOTg1MjY0OTkzZDBjOTZjNmM6NmQwOWRkODA5YTVlNDI1MTkxN2Q1MWIzZTE4NjEwYzc=',
+          'Authorization': `Basic ${auth_token}`,
         },
         data: data
       };
