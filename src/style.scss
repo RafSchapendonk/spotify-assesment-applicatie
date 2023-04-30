@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    @apply bg-black;
+}
+
 /* Loader */
 .loader {
+    @apply flex justify-center items-center h-screen;
+
     &__circle {
-        @apply text-red-600;
+        @apply text-green text-h1;
         font-size: 80px;
     } 
 }
